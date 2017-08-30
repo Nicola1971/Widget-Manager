@@ -1,8 +1,8 @@
 //<?php
 /**
- * EvoDashboardManager
+ * WidgetManager
  *
- * Evolution Dashboard
+ * Evolution Dashboard Widget Manager
  *
  * @author    Nicola Lambathakis
  * @category    plugin
