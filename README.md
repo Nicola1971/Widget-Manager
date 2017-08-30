@@ -1,4 +1,4 @@
-# EvoDashboard-Manager Beta
+# Widget Manager
 dashboard widget manager for EVO 1.3.3
 
 - Show/Hide widgets: show/hide/AdminOnly
