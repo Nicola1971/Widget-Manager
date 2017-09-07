@@ -5,4 +5,4 @@ dashboard widget manager for EVO 1.3.3
 - Widget size: 12/6/4/3
 - Menu index: sort widget order by number
 
-![config](https://github.com/Nicola1971/EvoDashboard-Manager/blob/master/screenshot.png)
+![screenshot](https://user-images.githubusercontent.com/7342798/30176337-5b2127c8-9402-11e7-8333-af40ed22604c.png)
