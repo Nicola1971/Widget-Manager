@@ -6,7 +6,7 @@
  *
  * @author    Nicola Lambathakis
  * @category    plugin
- * @version    v 1.1
+ * @version    v 1.2
  * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
  * @internal    @events OnManagerWelcomeHome,OnManagerWelcomeRender
  * @internal    @installset base
