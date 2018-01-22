@@ -1,5 +1,7 @@
 # Widget Manager
-dashboard widget manager for EVO 1.3.3
+dashboard widget manager for EVO 1.30 +
+
+http://www.tattoocms.it/extras/plugins/widget-manager.html
 
 A small EVO plugin to hide, resize and sort default dashboard widgets
 
