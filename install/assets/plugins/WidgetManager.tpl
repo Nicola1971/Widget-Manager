@@ -6,7 +6,7 @@
  *
  * @author    Nicola Lambathakis
  * @category    plugin
- * @version    v 1.3
+ * @version    v 1.4.1
  * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
  * @internal    @events OnManagerWelcomeHome,OnManagerWelcomeRender
  * @internal    @installset base
@@ -71,6 +71,16 @@ $widgets['security']['menuindex']=$security_menuindex;
 $e = &$modx->Event;
 switch($e->name){
 	case 'OnManagerWelcomeHome':
+		// fix for evo 1.4x bug https://github.com/evocms-community/evolution/issues/600
+if (isset($widgets['welcome']['body'])) {
+    $fmt = $modx->toDateFormat(0, 'formatOnly') . ' H:i:s';
+    $widgets['welcome']['body'] = str_replace(
+        ':dateFormat]]',
+        ':dateFormat=`' . $fmt . '`]]',
+        $widgets['welcome']['body']
+    );
+}
+//end fix
 		$e->output(serialize($widgets));
 		break;
 	case 'OnManagerWelcomeRender':
